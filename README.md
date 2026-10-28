@@ -77,3 +77,8 @@ A atividade pede que você apresente o repositório local, a sincronização com
 
 ## Estrutura do projeto
 O projeto utiliza HTML, CSS e JavaScript para gerenciar o cadastro e a consulta de alunos.
+
+## Paginas
+- index.html: pagina inicial.
+- cadastro.html: cadastro de alunos.
+- alunos.html: consulta dos alunos cadastrados.
