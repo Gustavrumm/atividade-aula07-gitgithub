@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar aluno | Projeto Aula 07</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/cadastro.js" defer></script>
+</head>
+<body>
+  <header class="topo"><div class="container nav">
+    <a class="marca" href="index.html">Projeto <span>Aula 07</span></a>
+    <nav aria-label="Navegação principal"><a href="index.html">Início</a><a class="ativo" href="cadastro.html">Cadastrar aluno</a><a href="alunos.html">Consultar alunos</a></nav>
+  </div></header>
+  <main class="container pagina">
+    <p class="etiqueta">Formulário</p><h1>Cadastrar aluno</h1><p class="subtitulo">Preencha os campos para adicionar um registro à lista local.</p>
+    <form id="form-aluno" class="formulario">
+      <label for="nome">Nome completo</label><input id="nome" name="nome" type="text" placeholder="Ex.: Maria da Silva" required minlength="3">
+      <label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="maria@exemplo.com" required>
+      <label for="curso">Curso</label>
+      <select id="curso" name="curso" required><option value="">Selecione um curso</option><option>Ciência da Computação</option><option>Sistemas de Informação</option><option>Jogos Digitais</option><option>Análise e Desenvolvimento de Sistemas</option><option>Outro</option></select>
+      <div class="acoes"><button class="botao" type="submit">Salvar aluno</button><a class="botao secundario" href="alunos.html">Consultar lista</a></div>
+      <p id="mensagem" class="mensagem" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+  <footer><div class="container">Os registros são armazenados no localStorage deste navegador.</div></footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultar alunos | Projeto Aula 07</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/alunos.js" defer></script>
+</head>
+<body>
+  <header class="topo"><div class="container nav">
+    <a class="marca" href="index.html">Projeto <span>Aula 07</span></a>
+    <nav aria-label="Navegação principal"><a href="index.html">Início</a><a href="cadastro.html">Cadastrar aluno</a><a class="ativo" href="alunos.html">Consultar alunos</a></nav>
+  </div></header>
+  <main class="container pagina">
+    <p class="etiqueta">Registros locais</p><h1>Alunos cadastrados</h1><p class="subtitulo">Pesquise os registros adicionados neste navegador.</p>
+    <div class="barra-pesquisa"><label class="sr-only" for="pesquisa">Pesquisar aluno</label><input id="pesquisa" type="search" placeholder="Pesquisar por nome, e-mail ou curso..."><span id="contador" class="contador">0 alunos</span></div>
+    <div id="lista-alunos" class="lista-alunos"></div>
+    <div class="acoes"><a class="botao" href="cadastro.html">+ Novo aluno</a><button id="limpar-todos" class="botao perigo" type="button">Limpar todos</button></div>
+    <p id="mensagem" class="mensagem" role="status" aria-live="polite"></p>
+  </main>
+  <footer><div class="container">Projeto didático para demonstrar HTML, CSS, JavaScript e versionamento.</div></footer>
+</body>
+</html>
