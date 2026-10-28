@@ -74,3 +74,6 @@ git config --global user.email "seu-email-do-github"
 ## Importante para a entrega
 
 A atividade pede que você apresente o repositório local, a sincronização com o GitHub e os logs de alterações pelo VS Code. O ZIP fornece o projeto e este roteiro; para comprovar a sua conta e o uso do VS Code, execute os passos de Git e capture suas próprias telas do repositório, commits, push/pull e histórico.
+
+## Estrutura do projeto
+O projeto utiliza HTML, CSS e JavaScript para gerenciar o cadastro e a consulta de alunos.
