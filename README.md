@@ -82,3 +82,6 @@ O projeto utiliza HTML, CSS e JavaScript para gerenciar o cadastro e a consulta 
 - index.html: pagina inicial.
 - cadastro.html: cadastro de alunos.
 - alunos.html: consulta dos alunos cadastrados.
+
+## Estilizacao
+Os estilos visuais e responsivos ficam organizados em css/style.css.
