@@ -85,3 +85,6 @@ O projeto utiliza HTML, CSS e JavaScript para gerenciar o cadastro e a consulta 
 
 ## Estilizacao
 Os estilos visuais e responsivos ficam organizados em css/style.css.
+
+## JavaScript
+Os scripts ficam organizados na pasta js e cuidam das funcionalidades das paginas.
